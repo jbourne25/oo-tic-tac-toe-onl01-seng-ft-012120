@@ -19,4 +19,3 @@ class TicTacToe
   end
   
   
-  end 
