@@ -4,6 +4,10 @@ class TicTacToe
     @board = board 
   end 
   
+  def board 
+    @board = [9, ""]
+  end 
+  
   
   
   
