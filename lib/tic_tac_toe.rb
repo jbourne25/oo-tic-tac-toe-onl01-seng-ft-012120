@@ -1,13 +1,6 @@
 class TicTacToe 
   
-  # def initialize(board)
-  #   @board = board 
-  # end 
-  
-  def board 
-    @board = [9, ""]
-  end 
-  
+
   def WIN_COMBINATIONS 
     @WIN_COMBINATIONS = [
       [0, 1, 2],
@@ -20,6 +13,10 @@ class TicTacToe
       [2, 4, 6]
     ]
   end 
+  
+  def initialize(board)
+    @board = array.new(9, "") 
+  end
   
   
   
