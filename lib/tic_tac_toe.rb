@@ -18,4 +18,7 @@ class TicTacToe
     @board = Array.new(9, " ") 
   end
   
+  def display_board 
+    @board 
+  
   
